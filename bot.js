@@ -10,5 +10,9 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
 });
-
+client.on('message', msg => {
+  if (msg.content === '1') {
+    msg.reply('2');
+  }
+});
 client.login(process.env.BOT_TOKEN);
