@@ -12,7 +12,7 @@ client.on('message', msg => {
 });
 client.on('message', msg => {
   if (msg.content === '1') {
-    msg.reply('2');
+    msg.send.channel('2');
   }
 });
 client.login(process.env.BOT_TOKEN);
