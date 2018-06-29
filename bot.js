@@ -15,7 +15,11 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
 });
-
+client.on('message', msg => {
+  if (msg.content === '.') {
+    msg.reply('اي حد عاوز اي نقطه يخش يكلمون');
+  }
+});
 client.on('message', message => {
 var prefix = "&";
 
