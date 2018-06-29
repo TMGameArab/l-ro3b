@@ -1,3 +1,4 @@
+// Code Of L-Ro3b App
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = '&';
