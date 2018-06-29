@@ -2,8 +2,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = '&';
-const fs = require("fs");
-var jimp = require('jimp');
 const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
 client.on('ready', () => {
