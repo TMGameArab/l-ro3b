@@ -1,13 +1,25 @@
 {
   "name": "L-Ro3b",
+  "version": "2.1.0",
   "description": "L-Ro3b Bot",
-  "version": "1.2.0",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "test": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "discord.js": "^11.3.2",
+    "discord.js-musicbot-addon": "^1.10.3",
+    "fs": "0.0.1-security",
+    "ms":"2.1.1",
+    "canvas":"1.6.11",
+    "jimp":"0.2.28",
+    "file-system":"2.2.2",
+    "moment":"2.22.2" ,
+    "fs-extra":"6.0.1" ,
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.6"
+  },
+  "engines": {
+    "node": "8.x"
   }
 }
