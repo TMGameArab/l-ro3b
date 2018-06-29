@@ -10,11 +10,7 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
 });
-client.on('message', msg => {
-  if (msg.content === '1') {
-    msg.send.channel('2');
-  }
-});
+
 client.on('message', message => {
 var prefix = "&";
 
