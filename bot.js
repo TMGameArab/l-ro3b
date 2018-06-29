@@ -1,4 +1,4 @@
-// Code Of L-Ro3b App
+// Code Of L-Ro3b Community Bot
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = '&';
