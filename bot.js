@@ -39,13 +39,13 @@ if (message.content.startsWith(prefix + 'setname')) {
 if (message.author.id !== '299899582211555329') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setUsername(argresult).the
 message.channel.sendMessage(`**${argresult}** : تم تغير الأسم`)
-return message.reply("**لا تستطيع تغير الأسم الا بعد ساعتين**");
+return message.reply("**لا تستطيع تغيير الأسم الا بعد ساعتين**");
 } else
  
 if (message.content.startsWith(prefix + 'setavatar')) {
 if (message.author.id !== '299899582211555329') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setAvatar(argresult);
- message.channel.sendMessage(`**${argresult}** : تم تغ��ر صورة البوت`);
+ message.channel.sendMessage(`**${argresult}** : تم تغيير صورة البوت`);
 } else
 
 
@@ -57,7 +57,7 @@ message.channel.sendMessage(`**${argresult}** : تم تغيير الووتشين
 if (message.content.startsWith(prefix + 'setl')) {
 if (message.author.id !== '299899582211555329') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setActivity(argresult, {type : 'listening'});
-message.channel.sendMessage(`**${argresult}**: تم تغير الاستماع الي`)
+message.channel.sendMessage(`**${argresult}**: تم تغيير الاستماع الي`)
 }
 
 });
