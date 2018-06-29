@@ -20,6 +20,21 @@ client.on('message', msg => {
     msg.reply('اي حد عاوز اي نقطه يخش يكلمون');
   }
 });
+client.on('message', msg => {
+  if (msg.content === 'ءقتمم داخل اكلمك ناو') {
+    msg.reply('ءقتمم بسرعه ينقم');
+  }
+});
+client.on('message', msg => {
+  if (msg.content === 'النقم في السما') {
+    msg.reply('لا اقولك فين؟');
+  }
+});
+client.on('message', msg => {
+  if (msg.content === 'فين ظظ') {
+    msg.reply('لفتيسك');
+  }
+});
 client.on('message', message => {
 var prefix = "&";
 
